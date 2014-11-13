@@ -1,0 +1,59 @@
+isoprostaglandin-F2alpha|noun|128|sing|512|E0521398|isoprostaglandin-F2alpha|isoprostaglandin F2alpha
+cine-ventriculogram|noun|128|base|1|E0521399|cine-ventriculogram|cineventriculogram
+cineventriculogram|noun|128|base|1|E0521399|cineventriculogram|cineventriculogram
+cine-ventriculograms|noun|128|plur|8|E0521399|cine-ventriculogram|cineventriculogram
+cineventriculograms|noun|128|plur|8|E0521399|cineventriculogram|cineventriculogram
+cine-ventriculogram|noun|128|sing|512|E0521399|cine-ventriculogram|cineventriculogram
+cineventriculogram|noun|128|sing|512|E0521399|cineventriculogram|cineventriculogram
+iso-prostaglandin A2|noun|128|base|1|E0521400|iso-prostaglandin A2|isoprostaglandin A2
+isoprostaglandin A2|noun|128|base|1|E0521400|isoprostaglandin A2|isoprostaglandin A2
+iso-prostaglandin A2|noun|128|sing|512|E0521400|iso-prostaglandin A2|isoprostaglandin A2
+isoprostaglandin A2|noun|128|sing|512|E0521400|isoprostaglandin A2|isoprostaglandin A2
+iso-prostaglandin E1|noun|128|base|1|E0521401|iso-prostaglandin E1|isoprostaglandin E1
+isoprostaglandin E1|noun|128|base|1|E0521401|isoprostaglandin E1|isoprostaglandin E1
+iso-prostaglandin E1|noun|128|sing|512|E0521401|iso-prostaglandin E1|isoprostaglandin E1
+isoprostaglandin E1|noun|128|sing|512|E0521401|isoprostaglandin E1|isoprostaglandin E1
+iso-prostaglandin E2|noun|128|base|1|E0521402|iso-prostaglandin E2|isoprostaglandin E2
+isoprostaglandin E2|noun|128|base|1|E0521402|isoprostaglandin E2|isoprostaglandin E2
+iso-prostaglandin E2|noun|128|sing|512|E0521402|iso-prostaglandin E2|isoprostaglandin E2
+isoprostaglandin E2|noun|128|sing|512|E0521402|isoprostaglandin E2|isoprostaglandin E2
+elastography|noun|128|base|1|E0521403|elastography|elastography
+elastography|noun|128|sing|512|E0521403|elastography|elastography
+elasto-graphic|adj|1|base|1|E0521404|elasto-graphic|elastographic
+elastographic|adj|1|base|1|E0521404|elastographic|elastographic
+elasto-graphic|adj|1|positive|256|E0521404|elasto-graphic|elastographic
+elastographic|adj|1|positive|256|E0521404|elastographic|elastographic
+para-iodoclonidine|noun|128|base|1|E0521405|para-iodoclonidine|para-iodoclonidine
+para-iodoclonidine|noun|128|sing|512|E0521405|para-iodoclonidine|para-iodoclonidine
+p-iodoclonidine|noun|128|base|1|E0521406|p-iodoclonidine|p-iodoclonidine
+p-iodoclonidine|noun|128|sing|512|E0521406|p-iodoclonidine|p-iodoclonidine
+iodoclonidine|noun|128|base|1|E0521407|iodoclonidine|iodoclonidine
+iodoclonidine|noun|128|sing|512|E0521407|iodoclonidine|iodoclonidine
+magnetic resonance elastography|noun|128|base|1|E0521408|magnetic resonance elastography|magnetic resonance elastography
+magnetic resonance elastography|noun|128|sing|512|E0521408|magnetic resonance elastography|magnetic resonance elastography
+indanol|noun|128|base|1|E0521409|indanol|indanol
+indanols|noun|128|plur|8|E0521409|indanol|indanol
+indanol|noun|128|sing|512|E0521409|indanol|indanol
+arthro-tomography|noun|128|base|1|E0521410|arthro-tomography|arthrotomography
+arthrotomography|noun|128|base|1|E0521410|arthrotomography|arthrotomography
+arthro-tomographies|noun|128|plur|8|E0521410|arthro-tomography|arthrotomography
+arthrotomographies|noun|128|plur|8|E0521410|arthrotomography|arthrotomography
+arthro-tomography|noun|128|sing|512|E0521410|arthro-tomography|arthrotomography
+arthrotomography|noun|128|sing|512|E0521410|arthrotomography|arthrotomography
+hydroxypyrazole|noun|128|base|1|E0521411|hydroxypyrazole|hydroxypyrazole
+hydroxypyrazoles|noun|128|plur|8|E0521411|hydroxypyrazole|hydroxypyrazole
+hydroxypyrazole|noun|128|sing|512|E0521411|hydroxypyrazole|hydroxypyrazole
+arthrotomogram|noun|128|base|1|E0521412|arthrotomogram|arthrotomogram
+arthrotomograms|noun|128|plur|8|E0521412|arthrotomogram|arthrotomogram
+arthrotomogram|noun|128|sing|512|E0521412|arthrotomogram|arthrotomogram
+tele-thermography|noun|128|base|1|E0521413|tele-thermography|telethermography
+telethermography|noun|128|base|1|E0521413|telethermography|telethermography
+tele-thermography|noun|128|sing|512|E0521413|tele-thermography|telethermography
+telethermography|noun|128|sing|512|E0521413|telethermography|telethermography
+tomo-scintigraphy|noun|128|base|1|E0521414|tomo-scintigraphy|tomoscintigraphy
+tomoscintigraphy|noun|128|base|1|E0521414|tomoscintigraphy|tomoscintigraphy
+tomo-scintigraphies|noun|128|plur|8|E0521414|tomo-scintigraphy|tomoscintigraphy
+tomoscintigraphies|noun|128|plur|8|E0521414|tomoscintigraphy|tomoscintigraphy
+tomo-scintigraphy|noun|128|sing|512|E0521414|tomo-scintigraphy|tomoscintigraphy
+tomoscintigraphy|noun|128|sing|512|E0521414|tomoscintigraphy|tomoscintigraphy
+tomoscintigraphic|adj|1|base|1|E0521415|tomoscintigraphic|tomoscintigraphic

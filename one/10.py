@@ -6,19 +6,15 @@
 
 def main(input_file):
 
-    wf = open("10.txt", "w")
-
     count_of = {}
     for word in open(input_file, "r"):
         if word in count_of:
-            count_of[word] = count_of[word] + 1
+            count_of[word] += 1
         else:
             count_of[word] = 1
 
     for k, v in sorted(count_of.items(), key=lambda x:x[1], reverse=True):
-        wf.write("%s %s" % (v,k))
-
-    wf.close()
+        print "%s\t%s" % (k.strip(), v)
 
 if __name__ == "__main__":
   import sys

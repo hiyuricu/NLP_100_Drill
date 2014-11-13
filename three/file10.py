@@ -8,13 +8,15 @@ def main(input_file):
 
     count_of = {}
     for word in open(input_file, "r"):
+        word.strip()
         if word in count_of:
             count_of[word] += 1
         else:
             count_of[word] = 1
+    return count_of
 
-    for k, v in sorted(count_of.items(), key=lambda x:x[1], reverse=True):
-        print "%s\t%s" % (k.strip(), v)
+    # for k, v in sorted(count_of.items(), key=lambda x:x[1], reverse=True):
+    #     print "%s\t%s" % (k.strip(), v)
 
 if __name__ == "__main__":
   import sys

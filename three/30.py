@@ -1,18 +1,12 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
 
-import sys, re
-from nltk.stem import *
+import sys
+from stemming.porter2 import stem
 
-def stemWords(line):
-  alpha = re.compile(r'[a-zA-Z\-\_]+')
-  if alpha.match(line):
-    stemmer = PorterStemmer()
-    return stemmer.stem(line)
-  return line
-
-if __name__ == '__main__':
-  for line in sys.stdin.readlines():
-    try:
-      col1, col2 = line.strip().split('\t')
-      sys.stdout.write('%s\t%s\t%s\n' % (col1, col2, stemWords(col2)))
-    except ValueError:
-      sys.stdout.write(line)
+def main():
+ 	for line in sys.stdin:
+		print "%s\t%s\t%s" % (line.strip().split()[0], line.strip().split()[1], stem(line.strip().split()[1]))
+		
+if __name__ == "__main__":
+    main()

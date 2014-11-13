@@ -3,9 +3,9 @@
 
 import sys, re
 
-def main(read_file):
-	for line in open(read_file):
-		line = line.strip()
-		print re.sub(r'\. ([A-Z])', r'.\n\1', line)
+def main():
+	for article in sys.stdin:
+		article = article.strip()
+		print re.sub(r'\. ([A-Z])', r'.\n\1', article)
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main()
