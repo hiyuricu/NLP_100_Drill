@@ -14,12 +14,18 @@ def get_NP():
 	        	NP = token_dic["w"]
 	        	BNP_flag = True
 	        elif token_dic["chunk"] == "B-NP" and BNP_flag:
-	        	print "# %s" % NP
+	        	if NP.split()[0] in ["a","an","the","A","An","The"]:
+	        		print "# %s\n%s" % (NP, NP.split()[0].upper())
+	        	else:
+	        		print "# %s\nNONE" % NP
 	        	NP = token_dic["w"]
 	        elif token_dic["chunk"] == "I-NP" and BNP_flag:
 	        	NP += " %s" % token_dic["w"]
 	        elif BNP_flag:
-	        	print "# %s" % NP
+	        	if NP.split()[0] in ["a","an","the","A","An","The"]:
+	        		print "# %s\n%s" % (NP, NP.split()[0].upper())
+	        	else:
+	        		print "# %s\nNONE" % NP
 	        	NP = ""
 	        	BNP_flag = False
 
