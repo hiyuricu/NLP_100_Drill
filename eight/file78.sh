@@ -1,0 +1,1 @@
+cat data00.f | classias-tag -s t -m model.txt -r > reference_predict_pair.txt
