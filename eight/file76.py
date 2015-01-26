@@ -5,7 +5,7 @@ import sys
 from file72_2 import get_dic_list
 
 #第一引数にdir71をとる
-#get_dic_listは辞書を格納したリストを格納したリストを格納したリストを返すモジュール
+#get_NP_featureは辞書を格納したリストを格納したリストを格納したリストを返すモジュール
 def get_NP_feature():
 	after_word_flag = False
 	wf_number = -1

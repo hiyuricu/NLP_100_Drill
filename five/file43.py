@@ -3,7 +3,6 @@
 
 import sys
 import MeCab
-import marshal
 
 def extract_verb_base():
 	me = MeCab.Tagger("mecabrc")

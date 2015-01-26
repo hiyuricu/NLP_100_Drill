@@ -38,7 +38,7 @@ def get_NP_feature():
 	        elif token_dic["chunk"] == "B-NP" and BNP_flag:
 	        	if NP.split()[0] in ["a","an","the","A","An","The"] and NP.strip() not in ["a","an","the","A","An","The"]:
 	        		after_word_flag = True
-	        		feature_str = '%s\n%s\tw[0]=%s\thw=%s\thpos=%s\thw|hpos=%s|%s\tfw=%s\tfpos=%s\tfw|fpos=%s|%s\tw[-1]=%s\tpos[-1]=%s' % (NP, NP.split()[0].upper(),NP,hw,hpos,hw,hpos,fw,fpos,fw,fpos,pre_word,pre_pos)
+	        		feature_str = '# %s\n%s\tw[0]=%s\thw=%s\thpos=%s\thw|hpos=%s|%s\tfw=%s\tfpos=%s\tfw|fpos=%s|%s\tw[-1]=%s\tpos[-1]=%s' % (NP, NP.split()[0].upper(),NP,hw,hpos,hw,hpos,fw,fpos,fw,fpos,pre_word,pre_pos)
 	        	NP = token_dic["w"]
 	        	fw = ""
 	        	hw = ""
@@ -65,7 +65,7 @@ def get_NP_feature():
 	        elif BNP_flag:
 	        	if NP.split()[0] in ["a","an","the","A","An","The"] and NP.strip() not in ["a","an","the","A","An","The"]:
 	        		after_word_flag = True
-	        		feature_str = '%s\n%s\tw[0]=%s\thw=%s\thpos=%s\thw|hpos=%s|%s\tfw=%s\tfpos=%s\tfw|fpos=%s|%s\tw[-1]=%s\tpos[-1]=%s' % (NP, NP.split()[0].upper(),NP,hw,hpos,hw,hpos,fw,fpos,fw,fpos,pre_word,pre_pos)
+	        		feature_str = '# %s\n%s\tw[0]=%s\thw=%s\thpos=%s\thw|hpos=%s|%s\tfw=%s\tfpos=%s\tfw|fpos=%s|%s\tw[-1]=%s\tpos[-1]=%s' % (NP, NP.split()[0].upper(),NP,hw,hpos,hw,hpos,fw,fpos,fw,fpos,pre_word,pre_pos)
 	        	BNP_flag = False
 	        	INP_flag = False
 

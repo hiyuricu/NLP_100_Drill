@@ -1,0 +1,2 @@
+# the pen
+THE	w[0]=the pen	hw=pen	hpos=NN	hw|hpos=pen|NN	fw=pen	fpos=NN	fw|fpos=pen|NN	w[-1]=is	pos[-1]=VBZ	w[1]=.	pos[1]=.

@@ -4,13 +4,13 @@ import sys,json
 from pymongo import Connection
 
 #第一引数はtweets100.tsv?
-tweet_data = json.load(open(sys.argv[1])) # jsonの取得
+tweet_data = json.load(open(sys.argv[1])) # jsonの取得。tweet_dataは辞書が要素のリストっぽい
 
-con = Connection('fomalhaut', 27017) #コネクション作成
+con = Connection('localhost', 27017) #コネクション作成
 db = con.nlp100_tachibana #コネクションからnlp100_tachibanaデータベースを取得
 col = db.tweets #nlp100_tachibanaデータベースからtweetsコレクションを取得
 
-for one_tw in tweet_data:
+for one_tw in tweet_data: # one_twは辞書っぽい
     tw = {}
     tw["url"] = "http://twitter.com/%s/status/%s" % (one_tw["user"]["screen_name"], one_tw["id_str"])
     tw["date"] = one_tw["created_at"]

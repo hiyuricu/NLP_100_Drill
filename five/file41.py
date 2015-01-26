@@ -3,7 +3,6 @@
 
 import sys
 import MeCab
-import marshal
 
 def Morphological_Analysis():
 	me = MeCab.Tagger("mecabrc")

@@ -1,94 +1,35 @@
-isoprostaglandin-F2alpha ('noun', 'sing', 'isoprostaglandin-F2alpha')
-cine-ventriculogram ('noun', 'base', 'cine-ventriculogram')
-cineventriculogram ('noun', 'base', 'cineventriculogram')
-cine-ventriculograms ('noun', 'plur', 'cine-ventriculogram')
-cineventriculograms ('noun', 'plur', 'cineventriculogram')
-cine-ventriculogram ('noun', 'sing', 'cine-ventriculogram')
-cineventriculogram ('noun', 'sing', 'cineventriculogram')
-iso-prostaglandin A2 ('noun', 'base', 'iso-prostaglandin A2')
-isoprostaglandin A2 ('noun', 'base', 'isoprostaglandin A2')
-iso-prostaglandin A2 ('noun', 'sing', 'iso-prostaglandin A2')
-isoprostaglandin A2 ('noun', 'sing', 'isoprostaglandin A2')
-iso-prostaglandin E1 ('noun', 'base', 'iso-prostaglandin E1')
-isoprostaglandin E1 ('noun', 'base', 'isoprostaglandin E1')
-iso-prostaglandin E1 ('noun', 'sing', 'iso-prostaglandin E1')
-isoprostaglandin E1 ('noun', 'sing', 'isoprostaglandin E1')
-iso-prostaglandin E2 ('noun', 'base', 'iso-prostaglandin E2')
-isoprostaglandin E2 ('noun', 'base', 'isoprostaglandin E2')
-iso-prostaglandin E2 ('noun', 'sing', 'iso-prostaglandin E2')
-isoprostaglandin E2 ('noun', 'sing', 'isoprostaglandin E2')
-elastography ('noun', 'base', 'elastography')
-elastography ('noun', 'sing', 'elastography')
-elasto-graphic ('adj', 'base', 'elasto-graphic')
-elastographic ('adj', 'base', 'elastographic')
-elasto-graphic ('adj', 'positive', 'elasto-graphic')
-elastographic ('adj', 'positive', 'elastographic')
-para-iodoclonidine ('noun', 'base', 'para-iodoclonidine')
-para-iodoclonidine ('noun', 'sing', 'para-iodoclonidine')
-p-iodoclonidine ('noun', 'base', 'p-iodoclonidine')
-p-iodoclonidine ('noun', 'sing', 'p-iodoclonidine')
-iodoclonidine ('noun', 'base', 'iodoclonidine')
-iodoclonidine ('noun', 'sing', 'iodoclonidine')
-magnetic resonance elastography ('noun', 'base', 'magnetic resonance elastography')
-magnetic resonance elastography ('noun', 'sing', 'magnetic resonance elastography')
-indanol ('noun', 'base', 'indanol')
-indanols ('noun', 'plur', 'indanol')
-indanol ('noun', 'sing', 'indanol')
-arthro-tomography ('noun', 'base', 'arthro-tomography')
-arthrotomography ('noun', 'base', 'arthrotomography')
-arthro-tomographies ('noun', 'plur', 'arthro-tomography')
-arthrotomographies ('noun', 'plur', 'arthrotomography')
-arthro-tomography ('noun', 'sing', 'arthro-tomography')
-arthrotomography ('noun', 'sing', 'arthrotomography')
-hydroxypyrazole ('noun', 'base', 'hydroxypyrazole')
 hydroxypyrazoles ('noun', 'plur', 'hydroxypyrazole')
-hydroxypyrazole ('noun', 'sing', 'hydroxypyrazole')
-arthrotomogram ('noun', 'base', 'arthrotomogram')
-arthrotomograms ('noun', 'plur', 'arthrotomogram')
-arthrotomogram ('noun', 'sing', 'arthrotomogram')
-tele-thermography ('noun', 'base', 'tele-thermography')
-telethermography ('noun', 'base', 'telethermography')
-tele-thermography ('noun', 'sing', 'tele-thermography')
-telethermography ('noun', 'sing', 'telethermography')
-tomo-scintigraphy ('noun', 'base', 'tomo-scintigraphy')
-tomoscintigraphy ('noun', 'base', 'tomoscintigraphy')
+isoprostaglandin-F2alpha ('noun', 'sing', 'isoprostaglandin-F2alpha')
+arthro-tomographies ('noun', 'plur', 'arthro-tomography')
+cineventriculograms ('noun', 'plur', 'cineventriculogram')
+tele-thermography (('noun', 'base', 'tele-thermography'), ('noun', 'sing', 'tele-thermography'))
+elasto-graphic (('adj', 'base', 'elasto-graphic'), ('adj', 'positive', 'elasto-graphic'))
 tomo-scintigraphies ('noun', 'plur', 'tomo-scintigraphy')
+elastographic (('adj', 'base', 'elastographic'), ('adj', 'positive', 'elastographic'))
+isoprostaglandin E1 (('noun', 'base', 'isoprostaglandin E1'), ('noun', 'sing', 'isoprostaglandin E1'))
+cine-ventriculograms ('noun', 'plur', 'cine-ventriculogram')
+elastography (('noun', 'base', 'elastography'), ('noun', 'sing', 'elastography'))
+arthrotomography (('noun', 'base', 'arthrotomography'), ('noun', 'sing', 'arthrotomography'))
+arthro-tomography (('noun', 'base', 'arthro-tomography'), ('noun', 'sing', 'arthro-tomography'))
+arthrotomographies ('noun', 'plur', 'arthrotomography')
+cineventriculogram (('noun', 'base', 'cineventriculogram'), ('noun', 'sing', 'cineventriculogram'))
+magnetic resonance elastography (('noun', 'base', 'magnetic resonance elastography'), ('noun', 'sing', 'magnetic resonance elastography'))
+tomo-scintigraphy (('noun', 'base', 'tomo-scintigraphy'), ('noun', 'sing', 'tomo-scintigraphy'))
+iodoclonidine (('noun', 'base', 'iodoclonidine'), ('noun', 'sing', 'iodoclonidine'))
+isoprostaglandin E2 (('noun', 'base', 'isoprostaglandin E2'), ('noun', 'sing', 'isoprostaglandin E2'))
+indanols ('noun', 'plur', 'indanol')
+arthrotomograms ('noun', 'plur', 'arthrotomogram')
+indanol (('noun', 'base', 'indanol'), ('noun', 'sing', 'indanol'))
+tomoscintigraphy (('noun', 'base', 'tomoscintigraphy'), ('noun', 'sing', 'tomoscintigraphy'))
+para-iodoclonidine (('noun', 'base', 'para-iodoclonidine'), ('noun', 'sing', 'para-iodoclonidine'))
+cine-ventriculogram (('noun', 'base', 'cine-ventriculogram'), ('noun', 'sing', 'cine-ventriculogram'))
 tomoscintigraphies ('noun', 'plur', 'tomoscintigraphy')
-tomo-scintigraphy ('noun', 'sing', 'tomo-scintigraphy')
-tomoscintigraphy ('noun', 'sing', 'tomoscintigraphy')
+arthrotomogram (('noun', 'base', 'arthrotomogram'), ('noun', 'sing', 'arthrotomogram'))
+isoprostaglandin A2 (('noun', 'base', 'isoprostaglandin A2'), ('noun', 'sing', 'isoprostaglandin A2'))
+telethermography (('noun', 'base', 'telethermography'), ('noun', 'sing', 'telethermography'))
+hydroxypyrazole (('noun', 'base', 'hydroxypyrazole'), ('noun', 'sing', 'hydroxypyrazole'))
+iso-prostaglandin A2 (('noun', 'base', 'iso-prostaglandin A2'), ('noun', 'sing', 'iso-prostaglandin A2'))
+iso-prostaglandin E1 (('noun', 'base', 'iso-prostaglandin E1'), ('noun', 'sing', 'iso-prostaglandin E1'))
 tomoscintigraphic ('adj', 'base', 'tomoscintigraphic')
-hydroxypyrazoles
-magnetic resonance elastography
-cine-ventriculograms
-arthro-tomographies
-cineventriculograms
-tele-thermography
-elastographic
-tomo-scintigraphies
-elasto-graphic
-isoprostaglandin E1
-isoprostaglandin E2
-elastography
-arthrotomography
-arthro-tomography
-arthrotomographies
-cineventriculogram
-isoprostaglandin-F2alpha
-tomo-scintigraphy
-iodoclonidine
-cine-ventriculogram
-indanols
-arthrotomograms
-indanol
-tomoscintigraphy
-para-iodoclonidine
-tomoscintigraphies
-arthrotomogram
-isoprostaglandin A2
-telethermography
-hydroxypyrazole
-iso-prostaglandin A2
-iso-prostaglandin E1
-tomoscintigraphic
-iso-prostaglandin E2
-p-iodoclonidine
+iso-prostaglandin E2 (('noun', 'base', 'iso-prostaglandin E2'), ('noun', 'sing', 'iso-prostaglandin E2'))
+p-iodoclonidine (('noun', 'base', 'p-iodoclonidine'), ('noun', 'sing', 'p-iodoclonidine'))
