@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #coding:utf-8
-import sys,json
+import sys,json,pymongo
 from pymongo import *
 
 con = Connection('localhost', 27017) #コネクション作成
