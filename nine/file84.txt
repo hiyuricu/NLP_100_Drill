@@ -1,0 +1,14 @@
+特定のURLに返信しているということはreply_urlがnullでないということなので、
+
+> db.tweets.find({"reply_url":null}).count()
+14
+> db.tweets.find({"reply_url":{$ne:null}}).count()
+6
+>
+> db.tweets.find({"reply_url":{$ne:null}})
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d7a"), "body" : "“@HQknm: 星クロ冷たい…”", "url" : "http://twitter.com/hoshio_t/status/485830078496915456", "freq_rted" : 0, "reply_url" : "http://twitter.com/HQknm/status/485829980249542658", "rt_url" : null, "user" : "2582015588", "date" : "Sun Jul 06 16:58:11 +0000 2014", "nickname" : "黒尾鉄朗@星尾" }
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d85"), "body" : "@RNKWUC \nずーっと光ってる(T ^ T)\n電気いらないくらいに笑", "url" : "http://twitter.com/nanapi7/status/485830082716377089", "freq_rted" : 0, "reply_url" : "http://twitter.com/RNKWUC/status/485829980098535424", "rt_url" : null, "user" : "2678844363", "date" : "Sun Jul 06 16:58:12 +0000 2014", "nickname" : "おきた ななこ" }
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d80"), "body" : "@bachibachibaan アッ、！\nアイコンにされてるこれは恥ずい。ありがと〜！", "url" : "http://twitter.com/i_buiv/status/485830082703798272", "freq_rted" : 0, "reply_url" : "http://twitter.com/bachibachibaan/status/485829699713523714", "rt_url" : null, "user" : "2307751399", "date" : "Sun Jul 06 16:58:12 +0000 2014", "nickname" : "竹前(ちょっとしにそう)" }
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d82"), "body" : "@chchsdvx @makkoing25 あっという間に終わりましたありです・・", "url" : "http://twitter.com/reel2yokin/status/485830082720579587", "freq_rted" : 0, "reply_url" : "http://twitter.com/chchsdvx/status/485829162335100929", "rt_url" : null, "user" : "932441996", "date" : "Sun Jul 06 16:58:12 +0000 2014", "nickname" : "りーる" }
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d86"), "body" : "@naaa015 @7291n リツイートしたいよー。", "url" : "http://twitter.com/yodahom/status/485830082720579586", "freq_rted" : 0, "reply_url" : "http://twitter.com/naaa015/status/485829609514991618", "rt_url" : null, "user" : "189428355", "date" : "Sun Jul 06 16:58:12 +0000 2014", "nickname" : "Homare" }
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d8c"), "body" : "@seudish あかん記憶力鈍りまくっとる。", "url" : "http://twitter.com/mirepiyo_berry/status/485830086889701376", "freq_rted" : 0, "reply_url" : "http://twitter.com/seudish/status/485829854865014785", "rt_url" : null, "user" : "2437037989", "date" : "Sun Jul 06 16:58:13 +0000 2014", "nickname" : "✡ありり✡" }

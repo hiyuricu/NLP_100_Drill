@@ -1,0 +1,56 @@
+> db.tweets.ensureIndex({ url: 1 })
+> db.tweets.ensureIndex({ date: 1 })
+> db.tweets.ensureIndex({ user: 1 })
+> db.tweets.ensureIndex({ rt_url: 1 })
+> db.tweets.ensureIndex({ reply_url: 1 })
+> db.tweets.getIndexes()
+[
+	{
+		"v" : 1,
+		"key" : {
+			"_id" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "_id_"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"url" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "url_1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"date" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "date_1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"user" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "user_1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"rt_url" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "rt_url_1"
+	},
+	{
+		"v" : 1,
+		"key" : {
+			"reply_url" : 1
+		},
+		"ns" : "nlp100_tachibana.tweets",
+		"name" : "reply_url_1"
+	}
+]

@@ -1,0 +1,10 @@
+> db.tweets.find({"user" : "170626372"}).sort({'freq_rted':-1})
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d8a"), "body" : "ウイトリ作画怪しい( ˘ω˘ )", "url" : "http://twitter.com/tttsg9p/status/485830086923280384", "freq_rted" : 0, "reply_url" : null, "rt_url" : null, "user" : "170626372", "date" : "Sun Jul 06 16:58:13 +0000 2014", "nickname" : "てん" }
+>
+> db.tweets.find({"user" : "170626372"}).sort({'freq_rted':-1}).limit(10)
+{ "_id" : ObjectId("54c5ba4efff5b22b1a944d8a"), "body" : "ウイトリ作画怪しい( ˘ω˘ )", "url" : "http://twitter.com/tttsg9p/status/485830086923280384", "freq_rted" : 0, "reply_url" : null, "rt_url" : null, "user" : "170626372", "date" : "Sun Jul 06 16:58:13 +0000 2014", "nickname" : "てん" }
+
+
+
+> db.tweets.find({"freq_rted":{$ne:0}}).count()
+0
